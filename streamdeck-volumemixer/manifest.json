@@ -1,0 +1,54 @@
+﻿{
+  "Actions": [
+    {
+      "Icon": "Images/volume-up",
+      "Name": "Increase application volume",
+      "States": [
+        {
+          "Image": "Images/volume-up",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Increase the volume of a specific application by keeping a key down",
+      "UUID": "be.bertmarcelis.streamdeck.volumemixer.application.increase",
+      "PropertyInspectorPath": "PropertyInspector/RelativeVolumeAction.html"
+    },
+    {
+      "Icon": "Images/volume-down",
+      "Name": "Decrease application volume",
+      "States": [
+        {
+          "Image": "Images/volume-down",
+          "TitleAlignment": "bottom",
+          "FontSize": "14"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Decrease the volume of a specific application by keeping a key down",
+      "UUID": "be.bertmarcelis.streamdeck.volumemixer.application.decrease",
+      "PropertyInspectorPath": "PropertyInspector/RelativeVolumeAction.html"
+    }
+  ],
+  "Name": "Volume mixer",
+  "Description": "Adjust the volume of individual applications",
+  "Author": "Bert Marcelis",
+  "Icon": "Images/volume-mixer",
+  "URL": "https://github.com/bertware/streamdeck-volumemixer",
+  "Version": "0.1",
+  "CodePath": "be.bertmarcelis.streamdeck.volumemixer.exe",
+  "CodePathWin": "be.bertmarcelis.streamdeck.volumemixer.exe",
+  "Category": "Volume mixer",
+  "CategoryIcon": "Images/volume-mixer",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "5.1"
+  }
+}
